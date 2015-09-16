@@ -5,13 +5,13 @@
 ## Example
   var requireH = require('require-haskell');
 
-  // You can now require haskell files with requireH just like you require javascript files using require.
-  var haskellFunction = requireH('/path/to/a/haskell/file.hs');
+    // You can now require haskell files with requireH just like you require javascript files using require.
+    var haskellFunction = requireH('/path/to/a/haskell/file.hs');
 
-  // Now you can call this function from your javascript code
-  haskellFunction('arguments', 'go', 'here', function(err, result){
-    // Now do something in the callback
-  });
+    // Now you can call this function from your javascript code
+    haskellFunction('arguments', 'go', 'here', function(err, result){
+      // Now do something in the callback
+    });
 
 ## Passing and Returning Data
 
@@ -24,9 +24,9 @@ If you want to call the Haskell module with certain environment variables set, y
 
 #### Example
 
-  var requireH = require('require-haskell');
-  var haskellFunctionWithEnvVariable = requireH('/some/file.hs', { VARNAME: 'foo' });
-  // Now when you call the function, the Haskell module will be run in a context that includes this new environment variable in addition to the ones it inherits from the Node proccess.
+    var requireH = require('require-haskell');
+    var haskellFunctionWithEnvVariable = requireH('/some/file.hs', { VARNAME: 'foo' });
+    // Now when you call the function, the Haskell module will be run in a context that includes this new environment variable in addition to the ones it inherits from the Node proccess.
 
 ## Dependencies
 
