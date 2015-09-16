@@ -1,0 +1,14 @@
+{
+  "name": "require-haskell",
+  "version": "1.0.0",
+  "description": "Require haskell functions from node",
+  "main": "require-haskell.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Benjamin Fox",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "~2.3.2"
+  }
+}
