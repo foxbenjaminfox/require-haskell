@@ -6,7 +6,17 @@
   "scripts": {
     "test": "jasmine"
   },
-  "author": "Benjamin Fox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxbenjaminfox/require-haskell.git"
+  },
+  "keywords": [
+    "haskell",
+    "require",
+    "interface",
+    "ffi"
+  ],
+  "author": "Benjamin Fox <foxbenjaminfox@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jasmine": "~2.3.2"
