@@ -1,4 +1,4 @@
-# Require-Haskell
+# Require-Haskell ![Build Status](https://travis-ci.org/foxbenjaminfox/require-haskell.svg)
 
 `require-haskell` lets you `require` your haskell modules as asynchronous Javascript functions.
 
